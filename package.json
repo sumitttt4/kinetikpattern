@@ -1,0 +1,64 @@
+{
+  "name": "kinetikpattern",
+  "version": "0.1.0",
+  "description": "Copy-paste registry of physically modeled UI components for React.",
+  "private": true,
+  "license": "MIT",
+  "author": "Sumit Sharma",
+  "homepage": "https://github.com/sumitttt4/Kinetik#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sumitttt4/Kinetik.git"
+  },
+  "bugs": {
+    "url": "https://github.com/sumitttt4/Kinetik/issues"
+  },
+  "funding": {
+    "type": "individual",
+    "url": "https://buymeacoffee.com/sumitsharmq"
+  },
+  "keywords": [
+    "nextjs",
+    "react",
+    "framer-motion",
+    "tailwindcss",
+    "ui-components",
+    "design-system",
+    "open-source"
+  ],
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "registry:build": "shadcn build"
+  },
+  "dependencies": {
+    "@paper-design/shaders-react": "^0.0.77",
+    "@radix-ui/react-slot": "^1.2.4",
+    "class-variance-authority": "^0.7.1",
+    "clsx": "^2.1.1",
+    "framer-motion": "^11.18.2",
+    "lucide-react": "^0.564.0",
+    "motion": "^12.42.2",
+    "next": "^16.2.10",
+    "next-themes": "^0.4.6",
+    "ogl": "^1.0.11",
+    "react": "^19.2.7",
+    "react-dom": "^19.2.7",
+    "tailwind-merge": "^2.6.0",
+    "tailwindcss-animate": "^1.0.7"
+  },
+  "devDependencies": {
+    "@types/node": "^22.13.1",
+    "@types/react": "^18.3.18",
+    "@types/react-dom": "^18.3.5",
+    "autoprefixer": "^10.4.20",
+    "eslint": "^8.57.1",
+    "eslint-config-next": "^14.2.26",
+    "postcss": "^8.5.1",
+    "shadcn": "^4.13.1",
+    "tailwindcss": "^3.4.17",
+    "typescript": "^5.7.3"
+  }
+}
